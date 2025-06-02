@@ -65,9 +65,7 @@ CBN\_OneStage\_Detection\_Study
 
 直接运行 `none.py` 脚本即可开始训练和评估过程。脚本将自动为不同的归一化类型和批量大小创建结果文件夹并保存结果。
 
-```bash
 python none.py
-```
 
 如果你希望在分布式模式下运行（例如，使用多 GPU），请确保你的环境已正确配置 `RANK`, `LOCAL_RANK` 等环境变量。
 
