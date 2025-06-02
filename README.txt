@@ -2,16 +2,6 @@ CBN\_OneStage\_Detection\_Study
 
 这是一个用于研究单阶段目标检测模型（如 RetinaNet 和 SSD）中不同归一化技术（包括标准 BN, SyncBN 和自定义的 Cross-Iteration Batch Normalization (CBN)）性能的项目。项目允许从头开始训练这些模型，以分析归一化方法对模型收敛和性能的影响。
 
- 目录
-
-   [项目简介](https://www.google.com/search?q=%23%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B)
-   [主要功能](https://www.google.com/search?q=%23%E4%B8%BB%E8%A6%81%E5%8A%9F%E8%83%BD)
-   [安装](https://www.google.com/search?q=%23%E5%AE%89%E8%A3%85)
-   [数据集准备](https://www.google.com/search?q=%23%E6%95%B0%E6%8D%AE%E9%9B%86%E5%87%86%E5%A4%87)
-   [使用方法](https://www.google.com/search?q=%23%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
-   [结果分析](https://www.google.com/search?q=%23%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90)
-   [调试指南](https://www.google.com/search?q=%23%E8%B0%83%E8%AF%95%E6%8C%87%E5%8D%97)
-   [许可证](https://www.google.com/search?q=%23%E8%AE%B8%E5%8F%AF%E8%AF%81)
  项目简介
 本项目旨在深入探讨在单阶段目标检测任务中，批量归一化（Batch Normalization, BN）、同步批量归一化（Synchronized Batch Normalization, SyncBN）以及跨迭代批量归一化（Cross-Iteration Batch Normalization, CBN）对模型训练稳定性和最终性能的影响。通过在 VOC 2007 数据集上从零开始训练 RetinaNet 模型，我们可以对比不同归一化策略在小批量训练场景下的表现。
 
